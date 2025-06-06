@@ -16,6 +16,9 @@ sunLightIcon.addEventListener("click", (e) => {
   body.classList.toggle("light-mode");
   sunLightIcon.style.display="none"
   moonLightIcon.style.display="block"
+  document.getElementById('projects').scrollIntoView({
+    behavior: 'smooth'
+  });
 });
 
 document.getElementById('latestWorkBtn').addEventListener('click', function() {

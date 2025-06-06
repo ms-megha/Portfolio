@@ -302,6 +302,10 @@ li {
   margin: 0 auto;
   /* margin-bottom: 48px; */
 }
+.project span a{
+  text-decoration: none;
+  color: inherit;
+}
 .heading {
   text-align: center;
   color: #1788ae;
